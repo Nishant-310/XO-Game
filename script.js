@@ -2,7 +2,7 @@ let boxes=document.querySelectorAll(".box");
 let resetBtn=document.querySelector("#reset");
 let head=document.querySelector("h1");
 let turn0=true;
-
+// winning condtions
 const winPatterns=[
     [0,1,2],
     [0,3,6],
